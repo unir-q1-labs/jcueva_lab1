@@ -137,22 +137,46 @@
     <dmn:extensionElements/>
     <dmn:variable id="_F3BAD38E-FCAD-45CD-9E7A-38809D5513D8" name="Driver" typeRef="tDrive"/>
   </dmn:inputData>
-  <dmn:decision id="_D990A5C0-E0D9-48B3-8C62-7A77B6FE5F52" name="Should the driver be suspended">
+  <dmn:decision id="_D990A5C0-E0D9-48B3-8C62-7A77B6FE5F52" name="Should the driver be suspended?">
     <dmn:extensionElements/>
     <dmn:question>Should the driver be suspended due to points on his driver license?</dmn:question>
     <dmn:allowedAnswers>Yes,No</dmn:allowedAnswers>
-    <dmn:variable id="_6643A4F1-0516-4709-9530-8915E51C04F2" name="Should the driver be suspended" typeRef="string"/>
+    <dmn:variable id="_6643A4F1-0516-4709-9530-8915E51C04F2" name="Should the driver be suspended?" typeRef="string"/>
     <dmn:informationRequirement id="_2387AB5C-85BB-4AFF-A124-B7F535AC2C99">
       <dmn:requiredDecision href="#_3D84644F-6C8D-4D27-A419-27A08F19A523"/>
     </dmn:informationRequirement>
     <dmn:informationRequirement id="_484B216F-53B7-491B-9E17-4EB8C2D6C7FD">
       <dmn:requiredInput href="#_A442B154-E414-4E3F-9871-42F036B8E346"/>
     </dmn:informationRequirement>
+    <dmn:context id="_8368A5FC-02B0-4A42-A51C-48D1D22A16DD">
+      <dmn:contextEntry>
+        <dmn:variable id="_FB6DB563-2E44-40CE-8DB8-76A5CBFC4173" name="Total Points" typeRef="number"/>
+        <dmn:literalExpression id="_6549B68B-0A79-4FB8-BDEC-9B8DD59B9D9E">
+          <dmn:text>Driver.Points + Fine.Points</dmn:text>
+        </dmn:literalExpression>
+      </dmn:contextEntry>
+      <dmn:contextEntry>
+        <dmn:literalExpression id="_4D1927B0-7B84-4645-988C-94A4F9AE1FC8">
+          <dmn:text> if Total Points >= 20 then "Yes" else "No"</dmn:text>
+        </dmn:literalExpression>
+      </dmn:contextEntry>
+    </dmn:context>
   </dmn:decision>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
       <di:extension>
         <kie:ComponentsWidthsExtension>
+          <kie:ComponentWidths dmnElementRef="_8368A5FC-02B0-4A42-A51C-48D1D22A16DD">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>372.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_6549B68B-0A79-4FB8-BDEC-9B8DD59B9D9E">
+            <kie:width>372.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_4D1927B0-7B84-4645-988C-94A4F9AE1FC8">
+            <kie:width>372.0</kie:width>
+          </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_4832D188-8D77-4738-BE7E-70DEA92BB9E2">
             <kie:width>50.0</kie:width>
             <kie:width>244.0</kie:width>
