@@ -19,7 +19,7 @@
     </dmn:itemComponent>
   </dmn:itemDefinition>
   <dmn:itemDefinition id="_9989F4ED-347E-4FFF-B3D4-3BB1B90C7AB5" name="tViolation" isCollection="true">
-    <dmn:itemComponent id="_AAD8C032-0FE4-4045-87CA-29674233FE65" name="Actual Speed" isCollection="false">
+    <dmn:itemComponent id="_AAD8C032-0FE4-4045-87CA-29674233FE65" name="Actual Speed" isCollection="true">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
     <dmn:itemComponent id="_FFD640D2-7A07-47CA-9E2D-5E01E1EB8CF2" name="Speed Limit" isCollection="false">
@@ -38,11 +38,11 @@
       <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
-  <dmn:itemDefinition id="_C48D2742-6054-4E8A-B74C-D9CE82AAC397" name="tFine" isCollection="false">
-    <dmn:itemComponent id="_6AA2B51C-94A6-441A-A857-92792C6E85AA" name="Points" isCollection="false">
+  <dmn:itemDefinition id="_C48D2742-6054-4E8A-B74C-D9CE82AAC397" name="tFine" isCollection="true">
+    <dmn:itemComponent id="_6AA2B51C-94A6-441A-A857-92792C6E85AA" name="Points" isCollection="true">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_A9E83DCB-9451-41C4-B25A-339DC930D0B1" name="Amount" isCollection="false">
+    <dmn:itemComponent id="_A9E83DCB-9451-41C4-B25A-339DC930D0B1" name="Amount" isCollection="true">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
