@@ -18,11 +18,11 @@
       <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
-  <dmn:itemDefinition id="_9989F4ED-347E-4FFF-B3D4-3BB1B90C7AB5" name="tViolation" isCollection="true">
-    <dmn:itemComponent id="_AAD8C032-0FE4-4045-87CA-29674233FE65" name="Actual Speed" isCollection="true">
+  <dmn:itemDefinition id="_9989F4ED-347E-4FFF-B3D4-3BB1B90C7AB5" name="tViolation" isCollection="false">
+    <dmn:itemComponent id="_AAD8C032-0FE4-4045-87CA-29674233FE65" name="Actual Speed" isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_FFD640D2-7A07-47CA-9E2D-5E01E1EB8CF2" name="Speed Limit" isCollection="true">
+    <dmn:itemComponent id="_FFD640D2-7A07-47CA-9E2D-5E01E1EB8CF2" name="Speed Limit" isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
     <dmn:itemComponent id="_1786F1EE-CCB0-45CD-B659-69127221BA83" name="Type" isCollection="false">
@@ -31,15 +31,15 @@
         <dmn:text>"Speed", "parking", "driving under the influence"</dmn:text>
       </dmn:allowedValues>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_48C27A61-44FE-475F-B5BF-FB511C77E481" name="Date" isCollection="true">
+    <dmn:itemComponent id="_48C27A61-44FE-475F-B5BF-FB511C77E481" name="Date" isCollection="false">
       <dmn:typeRef>date</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_B756439B-8941-4214-ADA4-34A367C081E6" name="Code" isCollection="true">
+    <dmn:itemComponent id="_B756439B-8941-4214-ADA4-34A367C081E6" name="Code" isCollection="false">
       <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
-  <dmn:itemDefinition id="_C48D2742-6054-4E8A-B74C-D9CE82AAC397" name="tFine" isCollection="true">
-    <dmn:itemComponent id="_6AA2B51C-94A6-441A-A857-92792C6E85AA" name="Points" isCollection="true">
+  <dmn:itemDefinition id="_C48D2742-6054-4E8A-B74C-D9CE82AAC397" name="tFine" isCollection="false">
+    <dmn:itemComponent id="_6AA2B51C-94A6-441A-A857-92792C6E85AA" name="Points" isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
     <dmn:itemComponent id="_A9E83DCB-9451-41C4-B25A-339DC930D0B1" name="Amount" isCollection="false">
@@ -48,7 +48,7 @@
   </dmn:itemDefinition>
   <dmn:decision id="_3D84644F-6C8D-4D27-A419-27A08F19A523" name="Fine">
     <dmn:extensionElements/>
-    <dmn:variable id="_CC4A018B-6D3F-4E6D-B1CE-B5294289DAD4" name="Fine" typeRef="tFine"/>
+    <dmn:variable id="_CC4A018B-6D3F-4E6D-B1CE-B5294289DAD4" name="Fine"/>
     <dmn:informationRequirement id="_80DC01C0-CE16-46DF-A793-11E58818C5ED">
       <dmn:requiredInput href="#_0CC1AC2F-3E89-4504-A556-67A5E5A740A2"/>
     </dmn:informationRequirement>
