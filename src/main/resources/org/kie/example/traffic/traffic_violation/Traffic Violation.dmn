@@ -22,7 +22,7 @@
     <dmn:itemComponent id="_AAD8C032-0FE4-4045-87CA-29674233FE65" name="Actual Speed" isCollection="true">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_FFD640D2-7A07-47CA-9E2D-5E01E1EB8CF2" name="Speed Limit" isCollection="false">
+    <dmn:itemComponent id="_FFD640D2-7A07-47CA-9E2D-5E01E1EB8CF2" name="Speed Limit" isCollection="true">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
     <dmn:itemComponent id="_1786F1EE-CCB0-45CD-B659-69127221BA83" name="Type" isCollection="false">
@@ -31,10 +31,10 @@
         <dmn:text>"Speed", "parking", "driving under the influence"</dmn:text>
       </dmn:allowedValues>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_48C27A61-44FE-475F-B5BF-FB511C77E481" name="Date" isCollection="false">
+    <dmn:itemComponent id="_48C27A61-44FE-475F-B5BF-FB511C77E481" name="Date" isCollection="true">
       <dmn:typeRef>date</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_B756439B-8941-4214-ADA4-34A367C081E6" name="Code" isCollection="false">
+    <dmn:itemComponent id="_B756439B-8941-4214-ADA4-34A367C081E6" name="Code" isCollection="true">
       <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
