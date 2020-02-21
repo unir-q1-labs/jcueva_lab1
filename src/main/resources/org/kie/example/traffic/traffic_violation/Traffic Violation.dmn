@@ -28,10 +28,11 @@
     <dmn:itemComponent id="_FFD640D2-7A07-47CA-9E2D-5E01E1EB8CF2" name="Speed Limit" isCollection="true">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_1786F1EE-CCB0-45CD-B659-69127221BA83" name="Type" isCollection="true">
-      <dmn:itemComponent id="_BA615BF6-F242-4A81-90EF-9FB39361B354" name="Speed" isCollection="false">
-        <dmn:typeRef>Any</dmn:typeRef>
-      </dmn:itemComponent>
+    <dmn:itemComponent id="_1786F1EE-CCB0-45CD-B659-69127221BA83" name="Type" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+      <dmn:allowedValues kie:constraintType="enumeration" id="_E298F07D-7CA9-4E0F-9079-838DCB3BDB7E">
+        <dmn:text>"Speed", "parking", "driving under the influence"</dmn:text>
+      </dmn:allowedValues>
     </dmn:itemComponent>
     <dmn:itemComponent id="_48C27A61-44FE-475F-B5BF-FB511C77E481" name="Date" isCollection="true">
       <dmn:typeRef>date</dmn:typeRef>
