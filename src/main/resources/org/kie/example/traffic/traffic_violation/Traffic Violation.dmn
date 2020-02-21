@@ -8,7 +8,7 @@
     <dmn:itemComponent id="_3B1221CD-F8B2-4689-896D-89B2E0DD64E3" name="driving under the influence" isCollection="true">
       <dmn:typeRef>Any</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_07118BA4-BFD9-4C7E-A849-DEE488BD3D21" name="parkingjc" isCollection="true">
+    <dmn:itemComponent id="_07118BA4-BFD9-4C7E-A849-DEE488BD3D21" name="parking" isCollection="true">
       <dmn:typeRef>Any</dmn:typeRef>
     </dmn:itemComponent>
     <dmn:itemComponent id="_BF43EE1B-390C-4966-938E-B7483FD6A082" name="speed" isCollection="true">
@@ -131,7 +131,7 @@
   </dmn:decision>
   <dmn:inputData id="_0CC1AC2F-3E89-4504-A556-67A5E5A740A2" name="Violation">
     <dmn:extensionElements/>
-    <dmn:variable id="_BD1A82C0-D680-4D27-9455-91D2F6106C53" name="Violation" typeRef="tViolation"/>
+    <dmn:variable id="_BD1A82C0-D680-4D27-9455-91D2F6106C53" name="Violation"/>
   </dmn:inputData>
   <dmn:inputData id="_A442B154-E414-4E3F-9871-42F036B8E346" name="Driver">
     <dmn:extensionElements/>
