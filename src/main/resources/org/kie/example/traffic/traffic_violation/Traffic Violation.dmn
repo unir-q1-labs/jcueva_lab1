@@ -9,7 +9,7 @@
       <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
     <dmn:itemComponent id="_B0ABBDB1-B7B8-401E-BD6B-E7E0757C62BC" name="Points" isCollection="true">
-      <dmn:typeRef>number</dmn:typeRef>
+      <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
     <dmn:itemComponent id="_BDD0E654-42EE-4B14-8FC7-8A2EADFDD577" name="City" isCollection="true">
       <dmn:typeRef>string</dmn:typeRef>
