@@ -53,7 +53,7 @@
           <factAlias>Driver</factAlias>
           <expressionAlias>Points</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>277.0</columnWidth>
+          <columnWidth>129.42857142857142</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -77,7 +77,7 @@
           <expressionAlias>Type</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>277.0</columnWidth>
+          <columnWidth>129.42857142857142</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -96,14 +96,11 @@
             <name>Violation</name>
             <className>Violation</className>
           </factIdentifier>
-          <className>java.util.List</className>
+          <className>number</className>
           <factAlias>Violation</factAlias>
           <expressionAlias>Speed Limit</expressionAlias>
-          <genericTypes>
-            <string>Speed Limit</string>
-          </genericTypes>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>277.0</columnWidth>
+          <columnWidth>129.42857142857142</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -122,14 +119,11 @@
             <name>Violation</name>
             <className>Violation</className>
           </factIdentifier>
-          <className>java.util.List</className>
+          <className>number</className>
           <factAlias>Violation</factAlias>
           <expressionAlias>Actual Speed</expressionAlias>
-          <genericTypes>
-            <string>Actual Speed</string>
-          </genericTypes>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>277.0</columnWidth>
+          <columnWidth>129.42857142857142</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -148,14 +142,11 @@
             <name>Fine</name>
             <className>Fine</className>
           </factIdentifier>
-          <className>java.util.List</className>
+          <className>number</className>
           <factAlias>Fine</factAlias>
           <expressionAlias>Points</expressionAlias>
-          <genericTypes>
-            <string>Points</string>
-          </genericTypes>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>277.0</columnWidth>
+          <columnWidth>129.42857142857142</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -174,14 +165,11 @@
             <name>Fine</name>
             <className>Fine</className>
           </factIdentifier>
-          <className>java.util.List</className>
+          <className>number</className>
           <factAlias>Fine</factAlias>
           <expressionAlias>Amount</expressionAlias>
-          <genericTypes>
-            <string>Amount</string>
-          </genericTypes>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>277.0</columnWidth>
+          <columnWidth>129.42857142857142</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -200,9 +188,8 @@
           <className>string</className>
           <factAlias>Should the driver be suspended?</factAlias>
           <expressionAlias>value</expressionAlias>
-          <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>277.0</columnWidth>
+          <columnWidth>129.42857142857142</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -233,61 +220,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|7</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;100&quot;}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|8</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;120&quot;}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|11</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;3&quot;}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|12</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;500&quot;}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Should the driver be suspended?</name>
-              <className>Should the driver be suspended?</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|13</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">&quot;No&quot;</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>#</name>
               <className>java.lang.Integer</className>
             </factIdentifier>
@@ -305,6 +237,60 @@
             <expressionIdentifier>
               <name>1|1</name>
               <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">10</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Fine</name>
+              <className>Fine</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|11</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">3</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Fine</name>
+              <className>Fine</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|12</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Violation</name>
+              <className>Violation</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|7</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">100</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Violation</name>
+              <className>Violation</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|8</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">120</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Should the driver be suspended?</name>
+              <className>Should the driver be suspended?</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|13</name>
+              <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
@@ -335,61 +321,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|7</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;100&quot;}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|8</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;150&quot;}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|11</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;7&quot;}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|12</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;1000&quot;}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Should the driver be suspended?</name>
-              <className>Should the driver be suspended?</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|13</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">&quot;No&quot;</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>#</name>
               <className>java.lang.Integer</className>
             </factIdentifier>
@@ -407,6 +338,59 @@
             <expressionIdentifier>
               <name>1|1</name>
               <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">10</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Fine</name>
+              <className>Fine</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|11</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Fine</name>
+              <className>Fine</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|12</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Violation</name>
+              <className>Violation</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|7</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">100</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Violation</name>
+              <className>Violation</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|8</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">150</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Should the driver be suspended?</name>
+              <className>Should the driver be suspended?</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|13</name>
+              <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
@@ -437,6 +421,48 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
+              <name>#</name>
+              <className>java.lang.Integer</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Index</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">3</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Driver</name>
+              <className>Driver</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|1</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">10</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Fine</name>
+              <className>Fine</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|11</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Fine</name>
+              <className>Fine</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|12</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
               <name>Violation</name>
               <className>Violation</className>
             </factIdentifier>
@@ -457,56 +483,12 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|11</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;1&quot;}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|12</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;100&quot;}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>Should the driver be suspended?</name>
               <className>Should the driver be suspended?</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1|13</name>
               <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">&quot;No&quot;</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>#</name>
-              <className>java.lang.Integer</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>Index</name>
-              <type>OTHER</type>
-            </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Driver</name>
-              <className>Driver</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
             </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
@@ -537,6 +519,48 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
+              <name>#</name>
+              <className>java.lang.Integer</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Index</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">4</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Driver</name>
+              <className>Driver</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|1</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">10</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Fine</name>
+              <className>Fine</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|11</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Fine</name>
+              <className>Fine</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|12</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
               <name>Violation</name>
               <className>Violation</className>
             </factIdentifier>
@@ -557,56 +581,12 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|11</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;5&quot;}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|12</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;1000&quot;}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>Should the driver be suspended?</name>
               <className>Should the driver be suspended?</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1|13</name>
               <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">&quot;No&quot;</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>#</name>
-              <className>java.lang.Integer</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>Index</name>
-              <type>OTHER</type>
-            </expressionIdentifier>
-            <rawValue class="string">4</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Driver</name>
-              <className>Driver</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
             </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
@@ -637,61 +617,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|7</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;100&quot;}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Violation</name>
-              <className>Violation</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|8</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;140&quot;}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|11</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;7&quot;}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|12</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;1000&quot;}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Should the driver be suspended?</name>
-              <className>Should the driver be suspended?</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|13</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">&quot;Yes&quot;</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>#</name>
               <className>java.lang.Integer</className>
             </factIdentifier>
@@ -709,6 +634,59 @@
             <expressionIdentifier>
               <name>1|1</name>
               <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">15</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Fine</name>
+              <className>Fine</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|11</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Fine</name>
+              <className>Fine</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|12</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Violation</name>
+              <className>Violation</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|7</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">100</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Violation</name>
+              <className>Violation</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|8</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">140</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Should the driver be suspended?</name>
+              <className>Should the driver be suspended?</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|13</name>
+              <type>EXPECT</type>
             </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
