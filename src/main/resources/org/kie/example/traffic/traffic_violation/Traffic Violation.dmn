@@ -43,7 +43,7 @@
       <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
     <dmn:itemComponent id="_A9E83DCB-9451-41C4-B25A-339DC930D0B1" name="Amount" isCollection="true">
-      <dmn:typeRef>number</dmn:typeRef>
+      <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
   <dmn:decision id="_3D84644F-6C8D-4D27-A419-27A08F19A523" name="Fine">
