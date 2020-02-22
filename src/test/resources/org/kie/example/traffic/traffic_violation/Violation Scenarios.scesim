@@ -142,9 +142,12 @@
             <name>Fine</name>
             <className>Fine</className>
           </factIdentifier>
-          <className>number</className>
+          <className>java.util.List</className>
           <factAlias>Fine</factAlias>
           <expressionAlias>Points</expressionAlias>
+          <genericTypes>
+            <string>Points</string>
+          </genericTypes>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>129.42857142857142</columnWidth>
         </FactMapping>
@@ -246,17 +249,6 @@
               <className>Fine</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|11</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">3</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
               <name>1|12</name>
               <type>EXPECT</type>
             </expressionIdentifier>
@@ -292,6 +284,17 @@
               <name>1|13</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Fine</name>
+              <className>Fine</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|11</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{&quot;value&quot;:&quot;3&quot;}]</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -347,16 +350,6 @@
               <className>Fine</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|11</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
               <name>1|12</name>
               <type>EXPECT</type>
             </expressionIdentifier>
@@ -392,6 +385,17 @@
               <name>1|13</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Fine</name>
+              <className>Fine</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|11</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{&quot;value&quot;:&quot;7&quot;}]</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -447,16 +451,6 @@
               <className>Fine</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|11</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
               <name>1|12</name>
               <type>EXPECT</type>
             </expressionIdentifier>
@@ -490,6 +484,17 @@
               <name>1|13</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Fine</name>
+              <className>Fine</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|11</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{&quot;value&quot;:&quot;1&quot;}]</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -545,16 +550,6 @@
               <className>Fine</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|11</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
               <name>1|12</name>
               <type>EXPECT</type>
             </expressionIdentifier>
@@ -588,6 +583,17 @@
               <name>1|13</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Fine</name>
+              <className>Fine</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|11</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{&quot;value&quot;:&quot;5&quot;}]</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -643,16 +649,6 @@
               <className>Fine</className>
             </factIdentifier>
             <expressionIdentifier>
-              <name>1|11</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Fine</name>
-              <className>Fine</className>
-            </factIdentifier>
-            <expressionIdentifier>
               <name>1|12</name>
               <type>EXPECT</type>
             </expressionIdentifier>
@@ -688,6 +684,17 @@
               <name>1|13</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Fine</name>
+              <className>Fine</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|11</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{&quot;value&quot;:&quot;7&quot;}]</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
