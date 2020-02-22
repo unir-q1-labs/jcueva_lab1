@@ -49,12 +49,9 @@
             <name>Driver</name>
             <className>Driver</className>
           </factIdentifier>
-          <className>java.util.List</className>
+          <className>number</className>
           <factAlias>Driver</factAlias>
           <expressionAlias>Points</expressionAlias>
-          <genericTypes>
-            <string>Points</string>
-          </genericTypes>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>277.0</columnWidth>
         </FactMapping>
@@ -225,17 +222,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Driver</name>
-              <className>Driver</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;10&quot;}]</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>Violation</name>
               <className>Violation</className>
             </factIdentifier>
@@ -311,6 +297,16 @@
             </expressionIdentifier>
             <rawValue class="string">1</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Driver</name>
+              <className>Driver</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|1</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -325,17 +321,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">Above speed limit: more than 30 km/h</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Driver</name>
-              <className>Driver</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;10&quot;}]</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -414,6 +399,16 @@
             </expressionIdentifier>
             <rawValue class="string">2</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Driver</name>
+              <className>Driver</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|1</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -428,17 +423,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">Parking violation</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Driver</name>
-              <className>Driver</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;10&quot;}]</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -515,6 +499,16 @@
             </expressionIdentifier>
             <rawValue class="string">3</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Driver</name>
+              <className>Driver</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|1</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -529,17 +523,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">DUI violation</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Driver</name>
-              <className>Driver</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;10&quot;}]</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -616,6 +599,16 @@
             </expressionIdentifier>
             <rawValue class="string">4</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Driver</name>
+              <className>Driver</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|1</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -630,17 +623,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">Driver suspended</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Driver</name>
-              <className>Driver</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;value&quot;:&quot;15&quot;}]</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -718,6 +700,16 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">5</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Driver</name>
+              <className>Driver</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|1</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
