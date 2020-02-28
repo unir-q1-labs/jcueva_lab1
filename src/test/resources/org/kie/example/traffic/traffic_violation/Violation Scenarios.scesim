@@ -53,7 +53,7 @@
           <factAlias>Driver</factAlias>
           <expressionAlias>Points</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>235.14285714285714</columnWidth>
+          <columnWidth>161.7142857142857</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -77,7 +77,7 @@
           <expressionAlias>Type</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>235.14285714285714</columnWidth>
+          <columnWidth>161.7142857142857</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -100,7 +100,7 @@
           <factAlias>Violation</factAlias>
           <expressionAlias>Speed Limit</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>235.14285714285714</columnWidth>
+          <columnWidth>161.7142857142857</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -123,7 +123,7 @@
           <factAlias>Violation</factAlias>
           <expressionAlias>Actual Speed</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>235.14285714285714</columnWidth>
+          <columnWidth>161.7142857142857</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -146,7 +146,7 @@
           <factAlias>Fine</factAlias>
           <expressionAlias>Points</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>235.14285714285714</columnWidth>
+          <columnWidth>161.7142857142857</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -169,7 +169,7 @@
           <factAlias>Fine</factAlias>
           <expressionAlias>Amount</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>235.14285714285714</columnWidth>
+          <columnWidth>161.7142857142857</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -189,7 +189,7 @@
           <factAlias>Should the driver be suspended?</factAlias>
           <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>235.14285714285714</columnWidth>
+          <columnWidth>161.7142857142857</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
